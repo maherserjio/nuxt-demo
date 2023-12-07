@@ -49,8 +49,6 @@ export const useAuthStore = defineStore("auth", {
         },
 
 
-
-
         async signOut() {
             this.loading = true;
             const logoutParams: ILogoutParams = getLogoutParams(this.profileId);

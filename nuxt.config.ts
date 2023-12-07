@@ -3,7 +3,8 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   modules: [
     '@pinia/nuxt',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    'nuxt-swiper'
   ],
   pinia: {
     storesDirs: ['./stores/**', './custom-folder/stores/**'],
